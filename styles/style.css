@@ -4,11 +4,12 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
-
-
-
 /* nav related styles */
+header{
+    padding-top: 150px;
+}
 .logo-text{
+    margin-top:-30px;
     font-size: 90px;
 }
 nav{
@@ -17,15 +18,14 @@ nav{
 }
 .first-section img{
     height: 120px;
-    margin-top: 75px;
+    margin-top: -30px;
     margin-left: 400px;
 }
 nav > ul{
     display: flex;
     }
     nav li{
-        colo
-        margin-top: 70px;
+        
         list-style: none;
         margin-left: 30px;
         font-size:60px ;
@@ -301,12 +301,13 @@ margin-left:130px;
         gap: 30px;
     }
     .footer-section h3{
-font-size: 110px;
+     font-size: 110px;
+     margin-top: 130px;
     }
     .footer-section img{
 width: 200px;
 height: 200px;
-margin-top: 90px;
+margin-top:100px;
 
     }
     .icons{
@@ -360,20 +361,20 @@ form{
     top:1100px;
     border-radius: 30px;
 }
-form input{
-width: 1000px;
-height: 200px;
-display: flex;
-margin-left: 60px;
-margin-top: 60px;
-border-radius: 40px;
-padding-left: 40px;
-font-size: 70px;
+     form input{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+    border-radius: 40px;
+    padding-left: 40px;
+    font-size: 70px;
 }
-.tour-description{
+   .tour-description{
     display:block;
 }
-.about-tour{
+   .about-tour{
     width: 1300px; 
     margin-left: -290px;
     }
@@ -390,15 +391,15 @@ font-size: 70px;
         margin-left:250px;
         white-space: nowrap;
         }
-       .destination p{
+    .destination p{
         text-aligh:center;
         width: 1350px;
         margin-left:80px;
         }
-        .all-images{
+    .all-images{
             width:1400px;
             }
-        .images1 img{
+    .images1 img{
              margin-left: -350px;
             width:1400px;
             height: 700px;
@@ -407,12 +408,12 @@ font-size: 70px;
     .images2 {
         display:grid; 
         }
-        .images2 img{
+    .images2 img{
             width:1700px;
             height: 700px;
             margin-left: -350px;
         }
-        .images3{
+    .images3{
             display: block;
         }
     .images3 img{
